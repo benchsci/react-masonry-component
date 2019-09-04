@@ -35,7 +35,9 @@
     "webpack": "^1.12.9"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0-0"
+    "react": "^0.14.0 || ^15.0.0-0",
+    "prop-types": "^15.7.2",
+    "create-react-class": "^15.6.3"
   },
   "scripts": {
     "test": "karma start spec/setup/karma.conf.js",
